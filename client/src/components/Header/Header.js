@@ -33,7 +33,7 @@ export default function Header() {
                             )
                         }
 
-                        <Link>
+                        <Link to='/cart'>
                           cart
                           {cart.totalCount > 0 && <span className={classes.cart_count}>{cart.totalCount}</span>}
                         </Link>
