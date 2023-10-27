@@ -19,7 +19,7 @@ export default function FoodPage() {
 
   useEffect(() => {
     getById(id).then((food) => setFood(...food));
-  }, [id]);
+  }, [id]); 
 
   return (
     <div>
