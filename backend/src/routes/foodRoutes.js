@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { sample_foods, sample_tags } from '../../data.js'
+ import { sample_foods, sample_tags } from '../../data.js'
 
 const router = Router()
 
@@ -20,7 +20,7 @@ router.get('/search/:searchTerm', (req, res) => {
 
 router.get('/tag/:tag', (req, res) => {
     const { tag } = req.params
-    const foods = sample_foods.filter((item) => item.tags?.includes(tag));
+    const foods = sample_foods.filter((item) => item.tags.includes(tag));
     res.send(foods)
 })
 
