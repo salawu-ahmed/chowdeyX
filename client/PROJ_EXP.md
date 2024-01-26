@@ -1,3 +1,7 @@
+## This file explains the various components, pages and utils of this project and how they work 
+Again this file serves as a step by step guide to how each component works.
+This serves as a documentation of the project.
+
 the jsconfig file helps the auto import feature in the project 
 this project uses css modules.
 the AppRoutes contains the routes of the frontend 
