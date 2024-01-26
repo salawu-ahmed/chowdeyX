@@ -28,7 +28,7 @@ export default function Header() {
                                   </div>
                               </li>
                             ): (
-                                  <Link to='/'>Login</Link>
+                                  <Link to='/login'>Login</Link>
                             )
                         }
 
